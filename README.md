@@ -30,41 +30,33 @@ Where most finance apps stop at manual entry, SpendWise goes further. The **Smar
 ## Tech Stack
 
 ### Frontend
-| Technology | Version | Purpose |
-|---|---|---|
-| React | 18.3.1 | UI framework |
-| Vite | 5.2 | Build tool and dev server |
-| React Router | v6 | Client-side routing |
-| TanStack React Query | v5 | Server state management and caching |
-| Tailwind CSS | 3.4.4 | Utility-first styling |
-| Framer Motion | — | Animations and transitions |
-| Recharts | — | Financial data visualization |
-| Axios | — | HTTP client with JWT interceptor and auto-refresh |
-| Lucide React | — | Icon library |
-| React Hot Toast | — | Toast notifications |
-| React Markdown | — | Markdown rendering for WiseBot responses |
+- **React 18.3.1** — UI framework
+- **Vite 5.2** — Build tool and dev server
+- **React Router v6** — Client-side routing
+- **TanStack React Query v5** — Server state management and caching
+- **Tailwind CSS 3.4.4** — Utility-first styling
+- **Framer Motion** — Animations and transitions
+- **Recharts** — Financial data visualization
+- **Axios** — HTTP client with JWT interceptor and auto-refresh
+- **Lucide React** — Icon library
+- **React Hot Toast** — Toast notifications
+- **React Markdown** — Markdown rendering for WiseBot responses
 
 ### Backend
-| Technology | Version | Purpose |
-|---|---|---|
-| Flask | 3.0.3 | REST API framework |
-| Flask-CORS | — | Cross-origin resource sharing |
-| Flask-JWT-Extended | — | JWT authentication (access + refresh tokens) |
-| mysql-connector-python | — | MySQL database driver with connection pooling |
-| bcrypt | — | Password hashing |
+- **Flask 3.0.3** — REST API framework
+- **Flask-CORS** — Cross-origin resource sharing
+- **Flask-JWT-Extended** — JWT authentication (access + refresh tokens)
+- **mysql-connector-python** — MySQL database driver with connection pooling
+- **bcrypt** — Password hashing
 
 ### Database
-| Technology | Purpose |
-|---|---|
-| MySQL 8.0 | Primary relational database (11 tables) |
+- **MySQL 8.0** — Primary relational database (11 tables)
 
 ### AI & Document Processing
-| Technology | Purpose |
-|---|---|
-| Google Gemini 2.5 Flash | WiseBot chat, import insights, proactive financial tips |
-| Pillow | Image preprocessing for OCR |
-| pdfplumber | PDF table extraction |
-| pandas + openpyxl | CSV and Excel parsing |
+- **Google Gemini 2.5 Flash** — WiseBot chat, import insights, proactive financial tips
+- **Pillow** — Image preprocessing for OCR
+- **pdfplumber** — PDF table extraction
+- **pandas + openpyxl** — CSV and Excel parsing
 
 ---
 

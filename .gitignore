@@ -24,8 +24,6 @@ frontend/node_modules/
 frontend/dist/
 frontend/.vite/
 
-# Screenshots / local assets
-screenshots/
 
 # OS
 .DS_Store
